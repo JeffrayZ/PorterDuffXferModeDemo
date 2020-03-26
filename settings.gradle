@@ -1,0 +1,2 @@
+rootProject.name='PorterDuffXferModeDemo'
+include ':app'

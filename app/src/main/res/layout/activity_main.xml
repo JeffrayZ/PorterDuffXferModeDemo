@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.example.porterduffxfermodedemo.view.TestXfermodeView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="分割线"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"/>
+
+        <com.example.porterduffxfermodedemo.view.CircleView
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="分割线"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"/>
+
+        <com.example.porterduffxfermodedemo.view.MyTextImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="分割线"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"/>
+
+        <com.example.porterduffxfermodedemo.view.CircleImageView
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/coco2dxcplus"
+            app:type="circle" />
+
+        <com.example.porterduffxfermodedemo.view.CircleImageView
+            android:layout_width="160dp"
+            android:layout_height="280dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/coco2dxcplus"
+            app:Radius="30dp"
+            app:type="round" />
+
+        <com.example.porterduffxfermodedemo.view.SampleView
+            android:layout_width="400dp"
+            android:layout_height="400dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="分割线"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"/>
+
+        <com.example.porterduffxfermodedemo.view.Guaguaka
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
