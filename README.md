@@ -1,2 +1,4 @@
 # PorterDuffXferModeDemo
-PorterDuffXferModeDemo是自己写的一些关于PorterDuffXferMode的例子，方便需要时观看
+PorterDuffXferModeDemo是自己写的一些关于PorterDuffXferMode的例子，方便需要时观看<br/>
+如果你还在为图片混合烦恼，还不懂自己写的PorterDuffXferMode为什么跟官方的图片效果不一致，那么你找对了<br/>
+这里有你想要的一切答案和解析，欢迎下载自己体会~
