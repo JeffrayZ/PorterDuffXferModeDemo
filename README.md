@@ -1,0 +1,2 @@
+# PorterDuffXferModeDemo
+PorterDuffXferModeDemo是自己写的一些关于PorterDuffXferMode的例子，方便需要时观看
